@@ -188,7 +188,7 @@ To visualize the results, you can run the following command to make the images i
 
 ```bash
 python make_video.py --input_dir ./dragon_bath_dfsph_output \
---image_name raw_view.png --output_path --video.mp4 --fps 30
+--image_name raw_view.png --output_path video.mp4 --fps 30
 ```
 
 To make the `.ply` particle file into `.obj` file for rendering, you can do surface reconstruction with the following command:
